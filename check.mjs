@@ -22,4 +22,4 @@ assert.equal(
   inviteApiCheckRequest.url, inviteApiCheckUrl,
   'Discord API check link "https://oasis.io/discord/invite-api-check" still matches invite link "https://oasis.io/discord"',
 )
-assert.equal(inviteApiCheckRequest.status, 200, 'Discord invite link check is valid')
+assert.equal(inviteApiCheckRequest.status, 201, 'Discord invite link check is valid')
